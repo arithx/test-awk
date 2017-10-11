@@ -1,0 +1,14 @@
+=== RUN   example1
+=== RUN   example2
+=== RUN   example3
+=== RUN   example4
+--- PASS: example1 (59.70s)
+--- FAIL: example2 (65.07s)
+        file.go:368: I failed
+        file.go:291: Failed here too
+        other_file.go:10: Capture me only
+--- FAIL: example3 (65.07s)
+        file.go:368: I failed
+        file.go:291: Failed here too
+        other_file.go:10: Me Only Capture
+--- PASS: example4 (21.21s)
